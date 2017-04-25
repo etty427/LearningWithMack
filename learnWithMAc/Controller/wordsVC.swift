@@ -168,11 +168,11 @@ class wordsVC: UIViewController, GKGameCenterControllerDelegate {
             
             if currentWord < myLetters.wordsForGame.count {
             
-            let correctAlert = UIAlertController(title: "You answered incorrect", message: "Please try again.", preferredStyle: .alert)
+            let correctAlert = UIAlertController(title: "You answered incorrect", message: "Better luck on next question.", preferredStyle: .alert)
             
             let correctAction1 = UIAlertAction(title: "OK", style: .destructive, handler: { (UIAlertAction) in
                 
-                self.currentWord -= 1
+                
                 
             })
             
