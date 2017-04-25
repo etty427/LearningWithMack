@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284451511E481333008842D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2844514F1E481333008842D5 /* Main.storyboard */; };
+		284451531E481333008842D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284451521E481333008842D5 /* Assets.xcassets */; };
+		284451561E481333008842D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284451541E481333008842D5 /* LaunchScreen.storyboard */; };
+		3469C3F71E7F7A4000A0571F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3469C3F61E7F7A4000A0571F /* Default-568h@2x.png */; };
+		3469C3F91E7F7A7D00A0571F /* AbcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469C3F81E7F7A7D00A0571F /* AbcViewController.swift */; };
+		3469C3FB1E7F7A9200A0571F /* wordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469C3FA1E7F7A9200A0571F /* wordsVC.swift */; };
+		3469C4001E7F7AAC00A0571F /* customSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469C3FC1E7F7AAC00A0571F /* customSegues.swift */; };
+		3469C4011E7F7AAC00A0571F /* letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469C3FD1E7F7AAC00A0571F /* letter.swift */; };
+		3469C4061E7F7C3700A0571F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3469C4041E7F7C3700A0571F /* AppDelegate.swift */; };
+		348FD9B91E88E81300A4E501 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348FD9B81E88E81300A4E501 /* StoreKit.framework */; };
+		348FD9BB1E88E81E00A4E501 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348FD9BA1E88E81E00A4E501 /* GameKit.framework */; };
+		349D686D1E77C8E300326666 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D686C1E77C8E300326666 /* a.mp3 */; };
+		349D68831E77C8F700326666 /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D686E1E77C8F700326666 /* f.mp3 */; };
+		349D68841E77C8F700326666 /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D686F1E77C8F700326666 /* g.mp3 */; };
+		349D68851E77C8F700326666 /* h.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68701E77C8F700326666 /* h.mp3 */; };
+		349D68861E77C8F700326666 /* i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68711E77C8F700326666 /* i.mp3 */; };
+		349D68871E77C8F700326666 /* j.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68721E77C8F700326666 /* j.mp3 */; };
+		349D68881E77C8F700326666 /* k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68731E77C8F700326666 /* k.mp3 */; };
+		349D68891E77C8F700326666 /* l.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68741E77C8F700326666 /* l.mp3 */; };
+		349D688A1E77C8F700326666 /* m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68751E77C8F700326666 /* m.mp3 */; };
+		349D688B1E77C8F700326666 /* n.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68761E77C8F700326666 /* n.mp3 */; };
+		349D688C1E77C8F700326666 /* o.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68771E77C8F700326666 /* o.mp3 */; };
+		349D688D1E77C8F700326666 /* p.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68781E77C8F700326666 /* p.mp3 */; };
+		349D688E1E77C8F700326666 /* q.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68791E77C8F700326666 /* q.mp3 */; };
+		349D688F1E77C8F700326666 /* r.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D687A1E77C8F700326666 /* r.mp3 */; };
+		349D68901E77C8F700326666 /* s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D687B1E77C8F700326666 /* s.mp3 */; };
+		349D68911E77C8F700326666 /* t.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D687C1E77C8F700326666 /* t.mp3 */; };
+		349D68921E77C8F700326666 /* u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D687D1E77C8F700326666 /* u.mp3 */; };
+		349D68931E77C8F700326666 /* v.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D687E1E77C8F700326666 /* v.mp3 */; };
+		349D68941E77C8F700326666 /* w.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D687F1E77C8F700326666 /* w.mp3 */; };
+		349D68951E77C8F700326666 /* x.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68801E77C8F700326666 /* x.mp3 */; };
+		349D68961E77C8F700326666 /* y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68811E77C8F700326666 /* y.mp3 */; };
+		349D68971E77C8F700326666 /* z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68821E77C8F700326666 /* z.mp3 */; };
+		349D689C1E77C90400326666 /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68981E77C90400326666 /* b.mp3 */; };
+		349D689D1E77C90400326666 /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D68991E77C90400326666 /* c.mp3 */; };
+		349D689E1E77C90400326666 /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D689A1E77C90400326666 /* d.mp3 */; };
+		349D689F1E77C90400326666 /* e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 349D689B1E77C90400326666 /* e.mp3 */; };
+		34C4433E1E994A2500595F64 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4433D1E994A2500595F64 /* WelcomeViewController.swift */; };
+		34C443401E994A2D00595F64 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C4433F1E994A2D00595F64 /* PopUpViewController.swift */; };
+		C73D4777708227D8B4C4BCF0 /* Pods_learnWithMAc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BEBFC23288C482BE015298 /* Pods_learnWithMAc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34401BF81EA9A68100BB5167 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34401BF41EA9A68000BB5167 /* GCHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 607FACE51AFB9204008FA782;
+			remoteInfo = GCHelper_Tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284451481E481333008842D5 /* learnWithMAc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnWithMAc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284451501E481333008842D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		284451521E481333008842D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284451551E481333008842D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34401BF41EA9A68000BB5167 /* GCHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GCHelper.xcodeproj; path = "../../Downloads/GCHelper-master/Example/GCHelper.xcodeproj"; sourceTree = "<group>"; };
+		3469C3F61E7F7A4000A0571F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3469C3F81E7F7A7D00A0571F /* AbcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbcViewController.swift; path = Controller/AbcViewController.swift; sourceTree = "<group>"; };
+		3469C3FA1E7F7A9200A0571F /* wordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = wordsVC.swift; path = Controller/wordsVC.swift; sourceTree = "<group>"; };
+		3469C3FC1E7F7AAC00A0571F /* customSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = customSegues.swift; path = Models/customSegues.swift; sourceTree = "<group>"; };
+		3469C3FD1E7F7AAC00A0571F /* letter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = letter.swift; path = Models/letter.swift; sourceTree = "<group>"; };
+		3469C4041E7F7C3700A0571F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Supporting Files/AppDelegate.swift"; sourceTree = "<group>"; };
+		3469C4081E7F7CFC00A0571F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		348FD9B71E88E80C00A4E501 /* learnWithMAc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = learnWithMAc.entitlements; sourceTree = "<group>"; };
+		348FD9B81E88E81300A4E501 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		348FD9BA1E88E81E00A4E501 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		349D686C1E77C8E300326666 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = a.mp3; path = audio/a.mp3; sourceTree = SOURCE_ROOT; };
+		349D686E1E77C8F700326666 /* f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = f.mp3; path = audio/f.mp3; sourceTree = SOURCE_ROOT; };
+		349D686F1E77C8F700326666 /* g.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = g.mp3; path = audio/g.mp3; sourceTree = SOURCE_ROOT; };
+		349D68701E77C8F700326666 /* h.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = h.mp3; path = audio/h.mp3; sourceTree = SOURCE_ROOT; };
+		349D68711E77C8F700326666 /* i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = i.mp3; path = audio/i.mp3; sourceTree = SOURCE_ROOT; };
+		349D68721E77C8F700326666 /* j.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = j.mp3; path = audio/j.mp3; sourceTree = SOURCE_ROOT; };
+		349D68731E77C8F700326666 /* k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = k.mp3; path = audio/k.mp3; sourceTree = SOURCE_ROOT; };
+		349D68741E77C8F700326666 /* l.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = l.mp3; path = audio/l.mp3; sourceTree = SOURCE_ROOT; };
+		349D68751E77C8F700326666 /* m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = m.mp3; path = audio/m.mp3; sourceTree = SOURCE_ROOT; };
+		349D68761E77C8F700326666 /* n.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = n.mp3; path = audio/n.mp3; sourceTree = SOURCE_ROOT; };
+		349D68771E77C8F700326666 /* o.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = o.mp3; path = audio/o.mp3; sourceTree = SOURCE_ROOT; };
+		349D68781E77C8F700326666 /* p.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = p.mp3; path = audio/p.mp3; sourceTree = SOURCE_ROOT; };
+		349D68791E77C8F700326666 /* q.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = q.mp3; path = audio/q.mp3; sourceTree = SOURCE_ROOT; };
+		349D687A1E77C8F700326666 /* r.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = r.mp3; path = audio/r.mp3; sourceTree = SOURCE_ROOT; };
+		349D687B1E77C8F700326666 /* s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = s.mp3; path = audio/s.mp3; sourceTree = SOURCE_ROOT; };
+		349D687C1E77C8F700326666 /* t.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = t.mp3; path = audio/t.mp3; sourceTree = SOURCE_ROOT; };
+		349D687D1E77C8F700326666 /* u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = u.mp3; path = audio/u.mp3; sourceTree = SOURCE_ROOT; };
+		349D687E1E77C8F700326666 /* v.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = v.mp3; path = audio/v.mp3; sourceTree = SOURCE_ROOT; };
+		349D687F1E77C8F700326666 /* w.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = w.mp3; path = audio/w.mp3; sourceTree = SOURCE_ROOT; };
+		349D68801E77C8F700326666 /* x.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = x.mp3; path = audio/x.mp3; sourceTree = SOURCE_ROOT; };
+		349D68811E77C8F700326666 /* y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = y.mp3; path = audio/y.mp3; sourceTree = SOURCE_ROOT; };
+		349D68821E77C8F700326666 /* z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = z.mp3; path = audio/z.mp3; sourceTree = SOURCE_ROOT; };
+		349D68981E77C90400326666 /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = b.mp3; path = audio/b.mp3; sourceTree = SOURCE_ROOT; };
+		349D68991E77C90400326666 /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = c.mp3; path = audio/c.mp3; sourceTree = SOURCE_ROOT; };
+		349D689A1E77C90400326666 /* d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = d.mp3; path = audio/d.mp3; sourceTree = SOURCE_ROOT; };
+		349D689B1E77C90400326666 /* e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = e.mp3; path = audio/e.mp3; sourceTree = SOURCE_ROOT; };
+		34C4433D1E994A2500595F64 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = Controller/WelcomeViewController.swift; sourceTree = "<group>"; };
+		34C4433F1E994A2D00595F64 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopUpViewController.swift; path = Controller/PopUpViewController.swift; sourceTree = "<group>"; };
+		A7BEBFC23288C482BE015298 /* Pods_learnWithMAc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learnWithMAc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7C759031A3CE3BF76A31AC /* Pods-learnWithMAc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnWithMAc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-learnWithMAc/Pods-learnWithMAc.debug.xcconfig"; sourceTree = "<group>"; };
+		ED48FEB42402D6F98ADB06EB /* Pods-learnWithMAc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnWithMAc.release.xcconfig"; path = "Pods/Target Support Files/Pods-learnWithMAc/Pods-learnWithMAc.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284451451E481333008842D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348FD9BB1E88E81E00A4E501 /* GameKit.framework in Frameworks */,
+				C73D4777708227D8B4C4BCF0 /* Pods_learnWithMAc.framework in Frameworks */,
+				348FD9B91E88E81300A4E501 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2844513F1E481333008842D5 = {
+			isa = PBXGroup;
+			children = (
+				34401BF41EA9A68000BB5167 /* GCHelper.xcodeproj */,
+				3469C3F61E7F7A4000A0571F /* Default-568h@2x.png */,
+				2844514A1E481333008842D5 /* learnWithMAc */,
+				284451491E481333008842D5 /* Products */,
+				92C4514474D5C851E9A2D508 /* Pods */,
+				BCB28B286ABD71B9454294F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		284451491E481333008842D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284451481E481333008842D5 /* learnWithMAc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2844514A1E481333008842D5 /* learnWithMAc */ = {
+			isa = PBXGroup;
+			children = (
+				348FD9B71E88E80C00A4E501 /* learnWithMAc.entitlements */,
+				286F23601E57BFE700F52868 /* Models */,
+				2844514F1E481333008842D5 /* Main.storyboard */,
+				284451541E481333008842D5 /* LaunchScreen.storyboard */,
+				28FC3A9A1E63757100B62432 /* Controllers */,
+				28FC3A991E63751800B62432 /* supporting files */,
+			);
+			path = learnWithMAc;
+			sourceTree = "<group>";
+		};
+		2844515D1E482923008842D5 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				349D686E1E77C8F700326666 /* f.mp3 */,
+				349D686F1E77C8F700326666 /* g.mp3 */,
+				349D68701E77C8F700326666 /* h.mp3 */,
+				349D68981E77C90400326666 /* b.mp3 */,
+				349D68991E77C90400326666 /* c.mp3 */,
+				349D689A1E77C90400326666 /* d.mp3 */,
+				349D689B1E77C90400326666 /* e.mp3 */,
+				349D68711E77C8F700326666 /* i.mp3 */,
+				349D68721E77C8F700326666 /* j.mp3 */,
+				349D68731E77C8F700326666 /* k.mp3 */,
+				349D68741E77C8F700326666 /* l.mp3 */,
+				349D68751E77C8F700326666 /* m.mp3 */,
+				349D68761E77C8F700326666 /* n.mp3 */,
+				349D68771E77C8F700326666 /* o.mp3 */,
+				349D68781E77C8F700326666 /* p.mp3 */,
+				349D68791E77C8F700326666 /* q.mp3 */,
+				349D687A1E77C8F700326666 /* r.mp3 */,
+				349D687B1E77C8F700326666 /* s.mp3 */,
+				349D687C1E77C8F700326666 /* t.mp3 */,
+				349D687D1E77C8F700326666 /* u.mp3 */,
+				349D687E1E77C8F700326666 /* v.mp3 */,
+				349D687F1E77C8F700326666 /* w.mp3 */,
+				349D68801E77C8F700326666 /* x.mp3 */,
+				349D68811E77C8F700326666 /* y.mp3 */,
+				349D68821E77C8F700326666 /* z.mp3 */,
+				349D686C1E77C8E300326666 /* a.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		286F23601E57BFE700F52868 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3469C3FC1E7F7AAC00A0571F /* customSegues.swift */,
+				3469C3FD1E7F7AAC00A0571F /* letter.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		28FC3A991E63751800B62432 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2844515D1E482923008842D5 /* audio */,
+				284451521E481333008842D5 /* Assets.xcassets */,
+				3469C4041E7F7C3700A0571F /* AppDelegate.swift */,
+				3469C4081E7F7CFC00A0571F /* Info.plist */,
+			);
+			name = "supporting files";
+			sourceTree = "<group>";
+		};
+		28FC3A9A1E63757100B62432 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3469C3F81E7F7A7D00A0571F /* AbcViewController.swift */,
+				34C4433D1E994A2500595F64 /* WelcomeViewController.swift */,
+				34C4433F1E994A2D00595F64 /* PopUpViewController.swift */,
+				3469C3FA1E7F7A9200A0571F /* wordsVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		34401BF51EA9A68000BB5167 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34401BF91EA9A68100BB5167 /* GCHelper_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C4514474D5C851E9A2D508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C759031A3CE3BF76A31AC /* Pods-learnWithMAc.debug.xcconfig */,
+				ED48FEB42402D6F98ADB06EB /* Pods-learnWithMAc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCB28B286ABD71B9454294F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				348FD9BA1E88E81E00A4E501 /* GameKit.framework */,
+				348FD9B81E88E81300A4E501 /* StoreKit.framework */,
+				A7BEBFC23288C482BE015298 /* Pods_learnWithMAc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284451471E481333008842D5 /* learnWithMAc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2844515A1E481333008842D5 /* Build configuration list for PBXNativeTarget "learnWithMAc" */;
+			buildPhases = (
+				B8963CB788AB8AF2D032D748 /* [CP] Check Pods Manifest.lock */,
+				284451441E481333008842D5 /* Sources */,
+				284451451E481333008842D5 /* Frameworks */,
+				284451461E481333008842D5 /* Resources */,
+				8AD4F8013E59B16C292377AF /* [CP] Embed Pods Frameworks */,
+				C538A4424EE72140AF5481AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learnWithMAc;
+			productName = learnWithMAc;
+			productReference = 284451481E481333008842D5 /* learnWithMAc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284451401E481333008842D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rainman Technologies";
+				TargetAttributes = {
+					284451471E481333008842D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4M9579ZP3U;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 284451431E481333008842D5 /* Build configuration list for PBXProject "learnWithMAc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2844513F1E481333008842D5;
+			productRefGroup = 284451491E481333008842D5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 34401BF51EA9A68000BB5167 /* Products */;
+					ProjectRef = 34401BF41EA9A68000BB5167 /* GCHelper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				284451471E481333008842D5 /* learnWithMAc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		34401BF91EA9A68100BB5167 /* GCHelper_Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GCHelper_Tests.xctest;
+			remoteRef = 34401BF81EA9A68100BB5167 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284451461E481333008842D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349D689F1E77C90400326666 /* e.mp3 in Resources */,
+				349D68941E77C8F700326666 /* w.mp3 in Resources */,
+				349D68911E77C8F700326666 /* t.mp3 in Resources */,
+				349D68901E77C8F700326666 /* s.mp3 in Resources */,
+				349D689D1E77C90400326666 /* c.mp3 in Resources */,
+				349D688A1E77C8F700326666 /* m.mp3 in Resources */,
+				349D68891E77C8F700326666 /* l.mp3 in Resources */,
+				349D688B1E77C8F700326666 /* n.mp3 in Resources */,
+				349D688D1E77C8F700326666 /* p.mp3 in Resources */,
+				349D68931E77C8F700326666 /* v.mp3 in Resources */,
+				349D68971E77C8F700326666 /* z.mp3 in Resources */,
+				349D688E1E77C8F700326666 /* q.mp3 in Resources */,
+				349D68871E77C8F700326666 /* j.mp3 in Resources */,
+				349D68921E77C8F700326666 /* u.mp3 in Resources */,
+				349D68951E77C8F700326666 /* x.mp3 in Resources */,
+				349D68961E77C8F700326666 /* y.mp3 in Resources */,
+				349D689E1E77C90400326666 /* d.mp3 in Resources */,
+				349D68841E77C8F700326666 /* g.mp3 in Resources */,
+				349D688F1E77C8F700326666 /* r.mp3 in Resources */,
+				349D686D1E77C8E300326666 /* a.mp3 in Resources */,
+				349D688C1E77C8F700326666 /* o.mp3 in Resources */,
+				284451561E481333008842D5 /* LaunchScreen.storyboard in Resources */,
+				284451531E481333008842D5 /* Assets.xcassets in Resources */,
+				3469C3F71E7F7A4000A0571F /* Default-568h@2x.png in Resources */,
+				349D68861E77C8F700326666 /* i.mp3 in Resources */,
+				349D68831E77C8F700326666 /* f.mp3 in Resources */,
+				284451511E481333008842D5 /* Main.storyboard in Resources */,
+				349D689C1E77C90400326666 /* b.mp3 in Resources */,
+				349D68881E77C8F700326666 /* k.mp3 in Resources */,
+				349D68851E77C8F700326666 /* h.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8AD4F8013E59B16C292377AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learnWithMAc/Pods-learnWithMAc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8963CB788AB8AF2D032D748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C538A4424EE72140AF5481AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-learnWithMAc/Pods-learnWithMAc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284451441E481333008842D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3469C4061E7F7C3700A0571F /* AppDelegate.swift in Sources */,
+				3469C3FB1E7F7A9200A0571F /* wordsVC.swift in Sources */,
+				34C443401E994A2D00595F64 /* PopUpViewController.swift in Sources */,
+				3469C4001E7F7AAC00A0571F /* customSegues.swift in Sources */,
+				34C4433E1E994A2500595F64 /* WelcomeViewController.swift in Sources */,
+				3469C4011E7F7AAC00A0571F /* letter.swift in Sources */,
+				3469C3F91E7F7A7D00A0571F /* AbcViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2844514F1E481333008842D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284451501E481333008842D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284451541E481333008842D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284451551E481333008842D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284451581E481333008842D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		284451591E481333008842D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2844515B1E481333008842D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7C759031A3CE3BF76A31AC /* Pods-learnWithMAc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = learnWithMAc/learnWithMAc.entitlements;
+				DEVELOPMENT_TEAM = 4M9579ZP3U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SCLAlertView",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/learnWithMAc/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainmantechnologies.learningWithMack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2844515C1E481333008842D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED48FEB42402D6F98ADB06EB /* Pods-learnWithMAc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = learnWithMAc/learnWithMAc.entitlements;
+				DEVELOPMENT_TEAM = 4M9579ZP3U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SCLAlertView",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/learnWithMAc/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainmantechnologies.learningWithMack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284451431E481333008842D5 /* Build configuration list for PBXProject "learnWithMAc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284451581E481333008842D5 /* Debug */,
+				284451591E481333008842D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2844515A1E481333008842D5 /* Build configuration list for PBXNativeTarget "learnWithMAc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2844515B1E481333008842D5 /* Debug */,
+				2844515C1E481333008842D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284451401E481333008842D5 /* Project object */;
+}

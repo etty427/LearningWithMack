@@ -1,0 +1,15 @@
+PODS:
+  - Canvas (0.1.2)
+  - GCHelper (0.4.1)
+
+DEPENDENCIES:
+  - Canvas (~> 0.1)
+  - GCHelper (~> 0.3)
+
+SPEC CHECKSUMS:
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  GCHelper: 168bb32ef2b045580ccc384cf6be11db5aae8fd8
+
+PODFILE CHECKSUM: bae1c60619aba3d0889b54263da66041a48bbe6b
+
+COCOAPODS: 1.2.0
